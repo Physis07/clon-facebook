@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14pxs;
+  background: #fff;
+}
+.container {
+  background: #f0f2f5;
+  padding-top: 72px;
+  padding-bottom: 112px;
+}
+
+.content {
+  width: 980px;
+  margin: 20px auto;
+}
+
+.content > div {
+  display: inline-block;
+}
+
+.left-content {
+  width: 500px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+.f-logo > img {
+  height: 106px;
+  margin: -20px;
+}
+
+.f-quote {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  width: 396px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px grey;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.input-container > input[type="text"],
+.input-container > input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.input-container > input[type="text"]:focus,
+.input-container > input[type="password"]:focus {
+  border: 1px solid #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn {
+  background: #1877f2;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  margin: 10px 0;
+}
+
+.forgotten-password {
+  text-align: center;
+}
+
+.forgotten-password > a {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1877f2;
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.forgotten-password > a:hover {
+  text-decoration: underline;
+}
+
+.division {
+  width: 100%;
+}
